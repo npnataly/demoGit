@@ -19,7 +19,7 @@ public class TestingAbv {
     {
         //Creating our WebDriver and setting up the needed timeout
 
-        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     }
     
